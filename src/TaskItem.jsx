@@ -15,8 +15,7 @@ function TaskItem({ task, onToggle, onDelete }) {
       <span className={task.completed ? 'completed' : ''}>
         {task.text}
       </span>
-      {/* BUG 10: Function being called immediately */}
-      <button onClick={onDelete(task.id)} className="delete-btn">
+      <button onClick={() => onDelete(task.id)} className="delete-btn">
         Delete
       </button>
     </div>
