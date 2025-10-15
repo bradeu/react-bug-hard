@@ -22,7 +22,7 @@ Find and fix ALL the bugs in the application. There are bugs in:
 ## Setup
 ```bash
 npm install
-npm start
+npm run dev
 ```
 
 Good luck!
